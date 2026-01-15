@@ -23,6 +23,7 @@
   python3Packages,
   stdenv,
   swig,
+  wrapGAppsHook3,
   xercesc,
   yaml-cpp,
   zlib,
@@ -95,6 +96,7 @@ freecad-utils.makeCustomizable (
       qt6.qttools
       qt6.qtwayland
       qt6.qtwebengine
+      wrapGAppsHook3
     ]
     ++ pythonDeps;
 
